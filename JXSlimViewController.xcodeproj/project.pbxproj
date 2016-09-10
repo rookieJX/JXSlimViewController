@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26592B021D83BB510066985D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26592B011D83BB510066985D /* main.m */; };
+		26592B051D83BB510066985D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26592B041D83BB510066985D /* AppDelegate.m */; };
+		26592B081D83BB510066985D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26592B071D83BB510066985D /* ViewController.m */; };
+		26592B0B1D83BB510066985D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26592B091D83BB510066985D /* Main.storyboard */; };
+		26592B0D1D83BB510066985D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26592B0C1D83BB510066985D /* Assets.xcassets */; };
+		26592B101D83BB510066985D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26592B0E1D83BB510066985D /* LaunchScreen.storyboard */; };
+		26592B1B1D83BB510066985D /* JXSlimViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26592B1A1D83BB510066985D /* JXSlimViewControllerTests.m */; };
+		26592B261D83BB510066985D /* JXSlimViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26592B251D83BB510066985D /* JXSlimViewControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26592B171D83BB510066985D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26592AF51D83BB510066985D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26592AFC1D83BB510066985D;
+			remoteInfo = JXSlimViewController;
+		};
+		26592B221D83BB510066985D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26592AF51D83BB510066985D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26592AFC1D83BB510066985D;
+			remoteInfo = JXSlimViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26592AFD1D83BB510066985D /* JXSlimViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXSlimViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26592B011D83BB510066985D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26592B031D83BB510066985D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26592B041D83BB510066985D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26592B061D83BB510066985D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26592B071D83BB510066985D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26592B0A1D83BB510066985D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26592B0C1D83BB510066985D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26592B0F1D83BB510066985D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26592B111D83BB510066985D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26592B161D83BB510066985D /* JXSlimViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXSlimViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26592B1A1D83BB510066985D /* JXSlimViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXSlimViewControllerTests.m; sourceTree = "<group>"; };
+		26592B1C1D83BB510066985D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26592B211D83BB510066985D /* JXSlimViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXSlimViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26592B251D83BB510066985D /* JXSlimViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXSlimViewControllerUITests.m; sourceTree = "<group>"; };
+		26592B271D83BB510066985D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26592AFA1D83BB510066985D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26592B131D83BB510066985D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26592B1E1D83BB510066985D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26592AF41D83BB510066985D = {
+			isa = PBXGroup;
+			children = (
+				26592AFF1D83BB510066985D /* JXSlimViewController */,
+				26592B191D83BB510066985D /* JXSlimViewControllerTests */,
+				26592B241D83BB510066985D /* JXSlimViewControllerUITests */,
+				26592AFE1D83BB510066985D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26592AFE1D83BB510066985D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26592AFD1D83BB510066985D /* JXSlimViewController.app */,
+				26592B161D83BB510066985D /* JXSlimViewControllerTests.xctest */,
+				26592B211D83BB510066985D /* JXSlimViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26592AFF1D83BB510066985D /* JXSlimViewController */ = {
+			isa = PBXGroup;
+			children = (
+				26592B031D83BB510066985D /* AppDelegate.h */,
+				26592B041D83BB510066985D /* AppDelegate.m */,
+				26592B061D83BB510066985D /* ViewController.h */,
+				26592B071D83BB510066985D /* ViewController.m */,
+				26592B091D83BB510066985D /* Main.storyboard */,
+				26592B0C1D83BB510066985D /* Assets.xcassets */,
+				26592B0E1D83BB510066985D /* LaunchScreen.storyboard */,
+				26592B111D83BB510066985D /* Info.plist */,
+				26592B001D83BB510066985D /* Supporting Files */,
+			);
+			path = JXSlimViewController;
+			sourceTree = "<group>";
+		};
+		26592B001D83BB510066985D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26592B011D83BB510066985D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26592B191D83BB510066985D /* JXSlimViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				26592B1A1D83BB510066985D /* JXSlimViewControllerTests.m */,
+				26592B1C1D83BB510066985D /* Info.plist */,
+			);
+			path = JXSlimViewControllerTests;
+			sourceTree = "<group>";
+		};
+		26592B241D83BB510066985D /* JXSlimViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26592B251D83BB510066985D /* JXSlimViewControllerUITests.m */,
+				26592B271D83BB510066985D /* Info.plist */,
+			);
+			path = JXSlimViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26592AFC1D83BB510066985D /* JXSlimViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26592B2A1D83BB510066985D /* Build configuration list for PBXNativeTarget "JXSlimViewController" */;
+			buildPhases = (
+				26592AF91D83BB510066985D /* Sources */,
+				26592AFA1D83BB510066985D /* Frameworks */,
+				26592AFB1D83BB510066985D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXSlimViewController;
+			productName = JXSlimViewController;
+			productReference = 26592AFD1D83BB510066985D /* JXSlimViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26592B151D83BB510066985D /* JXSlimViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26592B2D1D83BB510066985D /* Build configuration list for PBXNativeTarget "JXSlimViewControllerTests" */;
+			buildPhases = (
+				26592B121D83BB510066985D /* Sources */,
+				26592B131D83BB510066985D /* Frameworks */,
+				26592B141D83BB510066985D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26592B181D83BB510066985D /* PBXTargetDependency */,
+			);
+			name = JXSlimViewControllerTests;
+			productName = JXSlimViewControllerTests;
+			productReference = 26592B161D83BB510066985D /* JXSlimViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26592B201D83BB510066985D /* JXSlimViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26592B301D83BB510066985D /* Build configuration list for PBXNativeTarget "JXSlimViewControllerUITests" */;
+			buildPhases = (
+				26592B1D1D83BB510066985D /* Sources */,
+				26592B1E1D83BB510066985D /* Frameworks */,
+				26592B1F1D83BB510066985D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26592B231D83BB510066985D /* PBXTargetDependency */,
+			);
+			name = JXSlimViewControllerUITests;
+			productName = JXSlimViewControllerUITests;
+			productReference = 26592B211D83BB510066985D /* JXSlimViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26592AF51D83BB510066985D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王加祥";
+				TargetAttributes = {
+					26592AFC1D83BB510066985D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6F399U28WY;
+					};
+					26592B151D83BB510066985D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6F399U28WY;
+						TestTargetID = 26592AFC1D83BB510066985D;
+					};
+					26592B201D83BB510066985D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6F399U28WY;
+						TestTargetID = 26592AFC1D83BB510066985D;
+					};
+				};
+			};
+			buildConfigurationList = 26592AF81D83BB510066985D /* Build configuration list for PBXProject "JXSlimViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26592AF41D83BB510066985D;
+			productRefGroup = 26592AFE1D83BB510066985D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26592AFC1D83BB510066985D /* JXSlimViewController */,
+				26592B151D83BB510066985D /* JXSlimViewControllerTests */,
+				26592B201D83BB510066985D /* JXSlimViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26592AFB1D83BB510066985D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26592B101D83BB510066985D /* LaunchScreen.storyboard in Resources */,
+				26592B0D1D83BB510066985D /* Assets.xcassets in Resources */,
+				26592B0B1D83BB510066985D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26592B141D83BB510066985D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26592B1F1D83BB510066985D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26592AF91D83BB510066985D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26592B081D83BB510066985D /* ViewController.m in Sources */,
+				26592B051D83BB510066985D /* AppDelegate.m in Sources */,
+				26592B021D83BB510066985D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26592B121D83BB510066985D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26592B1B1D83BB510066985D /* JXSlimViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26592B1D1D83BB510066985D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26592B261D83BB510066985D /* JXSlimViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26592B181D83BB510066985D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26592AFC1D83BB510066985D /* JXSlimViewController */;
+			targetProxy = 26592B171D83BB510066985D /* PBXContainerItemProxy */;
+		};
+		26592B231D83BB510066985D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26592AFC1D83BB510066985D /* JXSlimViewController */;
+			targetProxy = 26592B221D83BB510066985D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26592B091D83BB510066985D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26592B0A1D83BB510066985D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26592B0E1D83BB510066985D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26592B0F1D83BB510066985D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26592B281D83BB510066985D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26592B291D83BB510066985D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26592B2B1D83BB510066985D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXSlimViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXSlimViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26592B2C1D83BB510066985D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXSlimViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXSlimViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26592B2E1D83BB510066985D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXSlimViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXSlimViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXSlimViewController.app/JXSlimViewController";
+			};
+			name = Debug;
+		};
+		26592B2F1D83BB510066985D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXSlimViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXSlimViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXSlimViewController.app/JXSlimViewController";
+			};
+			name = Release;
+		};
+		26592B311D83BB510066985D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXSlimViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXSlimViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXSlimViewController;
+			};
+			name = Debug;
+		};
+		26592B321D83BB510066985D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXSlimViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXSlimViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXSlimViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26592AF81D83BB510066985D /* Build configuration list for PBXProject "JXSlimViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26592B281D83BB510066985D /* Debug */,
+				26592B291D83BB510066985D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26592B2A1D83BB510066985D /* Build configuration list for PBXNativeTarget "JXSlimViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26592B2B1D83BB510066985D /* Debug */,
+				26592B2C1D83BB510066985D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26592B2D1D83BB510066985D /* Build configuration list for PBXNativeTarget "JXSlimViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26592B2E1D83BB510066985D /* Debug */,
+				26592B2F1D83BB510066985D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26592B301D83BB510066985D /* Build configuration list for PBXNativeTarget "JXSlimViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26592B311D83BB510066985D /* Debug */,
+				26592B321D83BB510066985D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26592AF51D83BB510066985D /* Project object */;
+}
