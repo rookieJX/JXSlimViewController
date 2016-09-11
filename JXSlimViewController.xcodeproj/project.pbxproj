@@ -15,6 +15,9 @@
 		26592B101D83BB510066985D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26592B0E1D83BB510066985D /* LaunchScreen.storyboard */; };
 		26592B1B1D83BB510066985D /* JXSlimViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26592B1A1D83BB510066985D /* JXSlimViewControllerTests.m */; };
 		26592B261D83BB510066985D /* JXSlimViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 26592B251D83BB510066985D /* JXSlimViewControllerUITests.m */; };
+		26592B351D83BE550066985D /* ArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 26592B341D83BE550066985D /* ArrayDataSource.m */; };
+		26592B371D83BF6E0066985D /* Source.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26592B361D83BF6E0066985D /* Source.plist */; };
+		26592B3A1D83D62A0066985D /* JXArrayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 26592B391D83D62A0066985D /* JXArrayModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		26592B211D83BB510066985D /* JXSlimViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXSlimViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26592B251D83BB510066985D /* JXSlimViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXSlimViewControllerUITests.m; sourceTree = "<group>"; };
 		26592B271D83BB510066985D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26592B331D83BE550066985D /* ArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayDataSource.h; sourceTree = "<group>"; };
+		26592B341D83BE550066985D /* ArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSource.m; sourceTree = "<group>"; };
+		26592B361D83BF6E0066985D /* Source.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Source.plist; sourceTree = "<group>"; };
+		26592B381D83D62A0066985D /* JXArrayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXArrayModel.h; sourceTree = "<group>"; };
+		26592B391D83D62A0066985D /* JXArrayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXArrayModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,11 @@
 				26592B041D83BB510066985D /* AppDelegate.m */,
 				26592B061D83BB510066985D /* ViewController.h */,
 				26592B071D83BB510066985D /* ViewController.m */,
+				26592B331D83BE550066985D /* ArrayDataSource.h */,
+				26592B341D83BE550066985D /* ArrayDataSource.m */,
+				26592B381D83D62A0066985D /* JXArrayModel.h */,
+				26592B391D83D62A0066985D /* JXArrayModel.m */,
+				26592B361D83BF6E0066985D /* Source.plist */,
 				26592B091D83BB510066985D /* Main.storyboard */,
 				26592B0C1D83BB510066985D /* Assets.xcassets */,
 				26592B0E1D83BB510066985D /* LaunchScreen.storyboard */,
@@ -249,6 +262,7 @@
 				26592B101D83BB510066985D /* LaunchScreen.storyboard in Resources */,
 				26592B0D1D83BB510066985D /* Assets.xcassets in Resources */,
 				26592B0B1D83BB510066985D /* Main.storyboard in Resources */,
+				26592B371D83BF6E0066985D /* Source.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26592B3A1D83D62A0066985D /* JXArrayModel.m in Sources */,
 				26592B081D83BB510066985D /* ViewController.m in Sources */,
 				26592B051D83BB510066985D /* AppDelegate.m in Sources */,
+				26592B351D83BE550066985D /* ArrayDataSource.m in Sources */,
 				26592B021D83BB510066985D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
